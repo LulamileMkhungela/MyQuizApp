@@ -15,18 +15,18 @@ public class general_question1 extends AppCompatActivity {
         MainActivity.category = "general";
     }
 
-    public void onClickjhb(View view) {
+    public void onClickj(View view) {
         Intent intent = new Intent(general_question1.this,general_question2.class);
         startActivity(intent);
         MainActivity.score=MainActivity.score +1;
     }
 
-    public void onClickdbn(View view) {
+    public void onClickcpt(View view) {
         Intent intent = new Intent(general_question1.this, general_question2.class);
         startActivity(intent);
     }
 
-    public void onClickbfn(View view) {
+    public void onClickdbn(View view) {
         Intent intent = new Intent(general_question1.this, general_question2.class);
         startActivity(intent);
     }
