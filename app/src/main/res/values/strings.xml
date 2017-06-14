@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Quiz App1</string>
+    <string name="Gauteng">Gauteng</string>
+    <string name="Gauten">Gauteng</string>
+    <string name="Free_state">Free State</string>
+    <string name="North_west">North West</string>
+    <string name="Well_Done_Your_Score_Is">Well Done, Your Score Is</string>
+</resources>

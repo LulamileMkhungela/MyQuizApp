@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myquizapp1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="#CED8F6"
+    tools:context="com.businescard.lulams.myquizapp1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="25dp"
+        tools:ignore="UselessLeaf">
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="Mines were established ___in S.A"
+        android:textSize="28sp"
+        android:padding="8dp"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/questions"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1886"
+        android:background="#5882FA"
+        android:textColor="#000000"
+        android:onClick="onClick18"
+        android:padding="9dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1908"
+        android:background="#5882FA"
+        android:textColor="#000000"
+        android:onClick="onClick19"
+        android:padding="9dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1990"
+        android:background="#5882FA"
+        android:onClick="onClick90"
+        android:textColor="#000000"
+        android:padding="9dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice3"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
