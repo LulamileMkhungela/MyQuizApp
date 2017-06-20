@@ -1,69 +1,68 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/myquizapp1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CED8F6"
+    android:orientation="vertical"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-    android:background="#CED8F6"
     tools:context="com.businescard.lulams.myquizapp1.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
         android:layout_marginBottom="25dp"
+        android:padding="8dp"
         tools:ignore="UselessLeaf">
 
 
     </RelativeLayout>
     <TextView
+        android:id="@+id/questions"
         android:layout_width="match_parent"
         android:layout_height="76dp"
-        android:text="DA stands for in politics?"
-        android:textSize="28sp"
-        android:padding="8dp"
         android:layout_marginBottom="34dp"
-        android:id="@+id/questions"
+        android:padding="8dp"
+        android:text="DA stands for ?"
+        android:textSize="28sp"
         tools:ignore="HardcodedText" />
     <Button
+        android:id="@+id/choice1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="digital academy"
+        android:layout_marginBottom="25dp"
         android:background="#5882FA"
-        android:textColor="#000000"
         android:onClick="onClickda"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice1"
+        android:text="digital academy"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="democratic alliance"
+        android:layout_marginBottom="25dp"
         android:background="#5882FA"
-        android:textColor="#000000"
         android:onClick="onClickdaa"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice2"
+        android:text="democratic alliance"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="development agency"
+        android:layout_marginBottom="25dp"
         android:background="#5882FA"
         android:onClick="onClickdaaa"
-        android:textColor="#000000"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice3"
+        android:text="development agency"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
 

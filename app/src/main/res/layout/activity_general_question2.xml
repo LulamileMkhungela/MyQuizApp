@@ -1,22 +1,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/myquizapp1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CED8F6"
+    android:orientation="vertical"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-    android:background="#CED8F6"
     tools:context="com.businescard.lulams.myquizapp1.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
         android:layout_marginBottom="25dp"
+        android:padding="8dp"
         tools:ignore="UselessLeaf">
 
 
@@ -28,44 +27,44 @@
         android:layout_height="76dp"
         android:layout_marginBottom="34dp"
         android:padding="8dp"
-        android:text="South Africa held the world cup in which year ?"
+        android:text="Italy won world cup in  ?"
         android:textSize="28sp"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2007"
+        android:layout_marginBottom="25dp"
         android:background="#DF013A"
-        android:textColor="#000000"
         android:onClick="onClick07"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice1"
+        android:text="2007"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2010"
+        android:layout_marginBottom="25dp"
         android:background="#DF013A"
-        android:textColor="#000000"
         android:onClick="onClick10"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice2"
+        android:text="2010"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2015"
+        android:layout_marginBottom="25dp"
         android:background="#DF013A"
-        android:textColor="#000000"
         android:onClick="onClick05"
         android:padding="9dp"
-        android:layout_marginBottom="25dp"
-        android:id="@+id/choice3"
+        android:text="2015"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
 

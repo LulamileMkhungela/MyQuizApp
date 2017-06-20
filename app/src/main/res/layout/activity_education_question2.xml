@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/myquizapp1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CED8F6"
+    android:orientation="vertical"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-    android:background="#CED8F6"
     tools:context="com.businescard.lulams.myquizapp1.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
         android:layout_marginBottom="25dp"
+        android:padding="8dp"
         tools:ignore="UselessLeaf">
 
 
@@ -29,44 +28,44 @@
         android:layout_height="76dp"
         android:layout_marginBottom="34dp"
         android:padding="8dp"
-        android:text="Newton's 1st law is found in "
+        android:text="Newton law is found in "
         android:textSize="28sp"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Physical Sciences books"
-        android:onClick="onClicknwtn"
-        android:background="#00FF00"
-        android:textColor="#000000"
-        android:padding="9dp"
-        android:layout_marginBottom="25dp"
         android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#00FF00"
+        android:onClick="onClicknwtn"
+        android:padding="9dp"
+        android:text="Physical Sciences books"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Mathematics books"
-        android:onClick="onClickmts"
-        android:background="#00FF00"
-        android:textColor="#000000"
-        android:padding="9dp"
-        android:layout_marginBottom="25dp"
         android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#00FF00"
+        android:onClick="onClickmts"
+        android:padding="9dp"
+        android:text="Mathematics books"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
     <Button
+        android:id="@+id/choice3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="History books"
-        android:onClick="onClickhst"
-        android:background="#00FF00"
-        android:textColor="#000000"
-        android:padding="9dp"
         android:layout_marginBottom="25dp"
-        android:id="@+id/choice3"
+        android:background="#00FF00"
+        android:onClick="onClickhst"
+        android:padding="9dp"
+        android:text="History books"
+        android:textColor="#000000"
         tools:ignore="HardcodedText" />
 
 
