@@ -1,3 +1,4 @@
+// Refactor component structure
 package com.businescard.lulams.myquizapp1;
 
 import org.junit.Test;
